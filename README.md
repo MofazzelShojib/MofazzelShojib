@@ -1,4 +1,5 @@
-# This React App is my portfolio, Build using react-dom, material-ui and hosted in firebase URL: https://mofazzelshojib-bdcfe.web.app/
+# Hello! I am Mofazzel Hossain Shojib
+# The Following React App is my Portfolio, Build using react-dom, material-ui and hosted in firebase URL: https://mofazzelshojib-bdcfe.web.app/
 
 # Getting Started with Create React App
 
