@@ -5,7 +5,6 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import YouTubeIcon from '@material-ui/icons/YouTube';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import MailIcon from '@material-ui/icons/Mail';
 
 function Footer() {
     return (
