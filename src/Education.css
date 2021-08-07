@@ -1,0 +1,59 @@
+.education {
+    display: grid;
+    align-items: center;
+    justify-content:space-evenly;
+    background-color: black;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.edu_row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+
+}        
+
+
+.msc {
+    text-align: left;
+    font-size: large;
+    background-color: slategrey;
+    color: white;
+    margin: 30px;
+    padding: 20px;
+    width: 320px;
+}
+
+.bsc {
+    text-align: left;
+    font-size: large;
+    background-color: slategrey;
+    color: white;
+    margin: 30px;
+    padding: 20px;
+    width: 320px;
+}
+
+.hsc {
+    text-align: left;
+    font-size: large;
+    background-color: slategrey;
+    color: white;
+    margin: 30px;
+    padding: 20px;
+    width: 320px;
+}
+
+.ssc {
+    text-align: left;
+    font-size: large;
+    background-color: slategrey;
+    color: white;
+    margin: 30px;
+    padding: 20px;
+    width: 320px;
+}

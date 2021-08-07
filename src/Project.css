@@ -1,0 +1,14 @@
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.project > p {
+    text-align: center;
+    font-size: large;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+}
