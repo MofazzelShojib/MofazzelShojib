@@ -1,5 +1,5 @@
+import React from 'react'; 
 import './App.css';
-import Header from './Header';
 import Home from './Home';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Footer from './Footer';
@@ -8,8 +8,11 @@ import Education from './Education';
 import Skill from './Skill';
 import Project from './Project';
 import About from './About';
+import Navbar from './Components/Navbar';
+
 
 function App() {
+
   return (
 
     <Router>
@@ -19,37 +22,42 @@ function App() {
         <Switch>
 
           <Route path="/about">
-            <Header/>
+            <Navbar/>
             <About/>
             <Footer/>
           </Route>
 
           <Route path="/workexperience">
-            <Header/>
+            <Navbar/>
             <WorkExperience/>
             <Footer/>
           </Route>
 
           <Route path="/education">
-            <Header />
+            <Navbar />
             <Education />
             <Footer/>
           </Route>
 
           <Route path="/skill">
-            <Header />
+            <Navbar />
             <Skill />
             <Footer/>
           </Route>
 
           <Route path="/project">
-            <Header />
+            <Navbar />
             <Project />
             <Footer/>
           </Route>
 
+          <Route path="/signin">
+            <Navbar/>
+            <Footer/>
+          </Route>
+
           <Route path="/">
-            <Header/>
+            <Navbar/>
             <Home/>
             <Footer/>
           </Route>

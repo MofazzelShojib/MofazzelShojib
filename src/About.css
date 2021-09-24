@@ -1,15 +1,17 @@
 .about {
-    display:flex;
     background-color: black;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    object-fit: contain;
-    width: 100%;
-    height: 100%;
 }
 
 .about_info{
-    display: grid;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     margin-top: 20px;
     margin-bottom: 20px;  
     padding: 10px;

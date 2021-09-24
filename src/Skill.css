@@ -1,22 +1,24 @@
 .skill {
-    display: grid;
-    background-color: black;
-    align-items: center;
-    justify-content: center;
-    object-fit: contain;
-    width: 100%;
-    height: 100%;
+  background-color: black;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .skill_row {
-    display: flex;
-    margin: 10px;
-    padding: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
 }
+
 .skill_row > img {
-    object-fit: cover;
-    width: 352px;
-    height: 240px;
-    margin: 20px;
-    padding: 10px;
+  object-fit: cover;
+  width: 352px;
+  height: 240px;
+  margin: 20px;
+  padding: 10px;
 }

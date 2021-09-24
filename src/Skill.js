@@ -37,10 +37,6 @@ function Skill() {
 
             </div>
 
-            <div className="skill_row">
-
-            </div> 
-            
         </div>
     );
 }

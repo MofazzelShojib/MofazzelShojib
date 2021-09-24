@@ -21,10 +21,6 @@ function Education() {
                     <p>Department of EEE</p>
                 </div>
 
-                </div>
-
-                <div className="edu_row">
-
                 <div className="hsc">
                     <p>HSC, 2011</p>
                     <p>CGPA: 4.40 out of 5.00</p>

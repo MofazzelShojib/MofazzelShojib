@@ -1,59 +1,58 @@
 .education {
-    display: grid;
-    align-items: center;
-    justify-content:space-evenly;
-    background-color: black;
-    object-fit: contain;
-    width: 100%;
-    height: 100%;
+  background-color: black;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .edu_row {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px;
-    padding: 20px;
-
+  align-items: center;
+  padding: 10px;
 }        
 
 
 .msc {
-    text-align: left;
-    font-size: large;
-    background-color: slategrey;
-    color: white;
-    margin: 30px;
-    padding: 20px;
-    width: 320px;
+  text-align: left;
+  font-size: large;
+  background-color: black;
+  color: white;
+  margin: 30px;
+  padding: 20px;
+  width: 315px;
+  border: 1px solid white;
 }
 
 .bsc {
-    text-align: left;
-    font-size: large;
-    background-color: slategrey;
-    color: white;
-    margin: 30px;
-    padding: 20px;
-    width: 320px;
+  text-align: left;
+  font-size: large;
+  background-color: black;
+  color: white;
+  margin: 30px;
+  padding: 20px;
+  width: 315px;
+  border: 1px solid white;
 }
 
 .hsc {
-    text-align: left;
-    font-size: large;
-    background-color: slategrey;
-    color: white;
-    margin: 30px;
-    padding: 20px;
-    width: 320px;
+  text-align: left;
+  font-size: large;
+  background-color: black;
+  color: white;
+  margin: 30px;
+  padding: 20px;
+  width: 315px;
+  border: 1px solid white;
 }
 
 .ssc {
-    text-align: left;
-    font-size: large;
-    background-color: slategrey;
-    color: white;
-    margin: 30px;
-    padding: 20px;
-    width: 320px;
+  text-align: left;
+  font-size: large;
+  background-color: black;
+  color: white;
+  margin: 30px;
+  padding: 20px;
+  width: 315px;
+  border: 1px solid white;
 }

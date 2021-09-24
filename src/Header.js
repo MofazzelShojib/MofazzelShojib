@@ -7,13 +7,13 @@ function Header() {
     return (
         <div className="header">
 
-            <Link to="/">
-
-                <HomeIcon className="header_homeIcon" fontSize="large" />
-                
-            </Link>
-
             <div className="header_nav">
+
+                <Link to="/">
+
+                    <HomeIcon className="header_homeIcon" fontSize="large" />
+
+                </Link>
 
                 <Link to="/about">
 

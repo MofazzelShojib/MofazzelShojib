@@ -1,7 +1,8 @@
 .footer {
     display: flex;
+    flex-direction: column;
     z-index: 1;
-    background-color:black;
+    background-color:#05203a;
     align-items: center;
     justify-content: center;
     position: sticky;
