@@ -1,0 +1,153 @@
+[debug] [2021-09-24T13:54:20.602Z] ----------------------------------------------------------------------
+[debug] [2021-09-24T13:54:20.604Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\shoji\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-09-24T13:54:20.604Z] CLI Version:   9.16.0
+[debug] [2021-09-24T13:54:20.604Z] Platform:      win32
+[debug] [2021-09-24T13:54:20.604Z] Node Version:  v16.6.1
+[debug] [2021-09-24T13:54:20.605Z] Time:          Fri Sep 24 2021 19:54:20 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-09-24T13:54:20.605Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-09-24T13:54:20.658Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-09-24T13:54:20.658Z] > authorizing via signed-in user (shojib178@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\JavaScript\React\mofazzelshojib
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using mofazzelshojib-bdcfe. 
+[debug] [2021-09-24T13:54:33.954Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/mofazzelshojib-bdcfe [none]
+[debug] [2021-09-24T13:54:55.015Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/mofazzelshojib-bdcfe
+[debug] [2021-09-24T13:54:55.331Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects/mofazzelshojib-bdcfe
+    at Client.doRequest (C:\Users\shoji\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:211:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Client.request (C:\Users\shoji\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
+    at async Object.getFirebaseProject (C:\Users\shoji\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:290:21)
+    at async Object.doSetup [as project] (C:\Users\shoji\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:77:27)
+    at async init (C:\Users\shoji\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
+[error] 
+[error] Error: Failed to get Firebase project mofazzelshojib-bdcfe. Please make sure the project exists and your account has permission to access it.
+[debug] [2021-09-24T13:58:37.517Z] ----------------------------------------------------------------------
+[debug] [2021-09-24T13:58:37.525Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\shoji\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2021-09-24T13:58:37.526Z] CLI Version:   9.16.0
+[debug] [2021-09-24T13:58:37.527Z] Platform:      win32
+[debug] [2021-09-24T13:58:37.527Z] Node Version:  v16.6.1
+[debug] [2021-09-24T13:58:37.530Z] Time:          Fri Sep 24 2021 19:58:37 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-09-24T13:58:37.531Z] ----------------------------------------------------------------------
+[debug] 
+[info] Already logged in as shojib178@gmail.com
+[debug] [2021-09-24T13:59:35.488Z] ----------------------------------------------------------------------
+[debug] [2021-09-24T13:59:35.490Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\shoji\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-09-24T13:59:35.490Z] CLI Version:   9.16.0
+[debug] [2021-09-24T13:59:35.490Z] Platform:      win32
+[debug] [2021-09-24T13:59:35.490Z] Node Version:  v16.6.1
+[debug] [2021-09-24T13:59:35.491Z] Time:          Fri Sep 24 2021 19:59:35 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-09-24T13:59:35.491Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-09-24T13:59:35.544Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-09-24T13:59:35.544Z] > authorizing via signed-in user (shojib178@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\JavaScript\React\mofazzelshojib
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using mofazzelshojib-bdcfe. 
+[debug] [2021-09-24T13:59:53.914Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/mofazzelshojib-bdcfe [none]
+[debug] [2021-09-24T14:00:16.062Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/mofazzelshojib-bdcfe
+[debug] [2021-09-24T14:01:12.964Z] ----------------------------------------------------------------------
+[debug] [2021-09-24T14:01:12.966Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\shoji\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-09-24T14:01:12.966Z] CLI Version:   9.16.0
+[debug] [2021-09-24T14:01:12.967Z] Platform:      win32
+[debug] [2021-09-24T14:01:12.967Z] Node Version:  v16.6.1
+[debug] [2021-09-24T14:01:12.967Z] Time:          Fri Sep 24 2021 20:01:12 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-09-24T14:01:12.968Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-09-24T14:01:13.023Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-09-24T14:01:13.024Z] > authorizing via signed-in user (shojib178@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\JavaScript\React\mofazzelshojib
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using mofazzelshojib-bdcfe. 
+[debug] [2021-09-24T14:01:55.418Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/mofazzelshojib-bdcfe [none]
+[debug] [2021-09-24T14:02:22.136Z] ----------------------------------------------------------------------
+[debug] [2021-09-24T14:02:22.138Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\shoji\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2021-09-24T14:02:22.138Z] CLI Version:   9.16.0
+[debug] [2021-09-24T14:02:22.138Z] Platform:      win32
+[debug] [2021-09-24T14:02:22.138Z] Node Version:  v16.6.1
+[debug] [2021-09-24T14:02:22.139Z] Time:          Fri Sep 24 2021 20:02:22 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-09-24T14:02:22.139Z] ----------------------------------------------------------------------
+[debug] 
+[info] Already logged in as shojib178@gmail.com
+[debug] [2021-09-24T14:03:12.827Z] ----------------------------------------------------------------------
+[debug] [2021-09-24T14:03:12.829Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\shoji\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-09-24T14:03:12.829Z] CLI Version:   9.16.0
+[debug] [2021-09-24T14:03:12.829Z] Platform:      win32
+[debug] [2021-09-24T14:03:12.829Z] Node Version:  v16.6.1
+[debug] [2021-09-24T14:03:12.830Z] Time:          Fri Sep 24 2021 20:03:12 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-09-24T14:03:12.830Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-09-24T14:03:12.886Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-09-24T14:03:12.886Z] > authorizing via signed-in user (shojib178@gmail.com)
+[debug] [2021-09-24T14:03:12.887Z] [iam] checking project mofazzelshojib-bdcfe for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-09-24T14:03:12.889Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-09-24T14:03:12.889Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-09-24T14:03:33.943Z] [iam] error while checking permissions, command may fail: FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2021-09-24T14:03:33.951Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/mofazzelshojib-bdcfe [none]
+[debug] [2021-09-24T14:03:55.011Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/mofazzelshojib-bdcfe
