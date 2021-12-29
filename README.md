@@ -1,4 +1,6 @@
-Hello! I am M Mofazzel Hossain Shojib from Dhaka, Bangladesh
+Hello! I am Shojib from Dhaka, Bangladesh
+
+I am Expreienced in JavaScript Development
 
 I Love to learn & build new things
 
